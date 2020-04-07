@@ -1,0 +1,93 @@
+
+body{
+    padding: 30px;
+    background-color: #b3311ac4;
+}
+
+header{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+	margin: 10;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+}
+
+hr{
+	color: red;
+}
+
+#section_Buttons{
+	display: flex;
+	height: 60px;
+	margin: 10;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+}
+
+#section_Alunos{
+    display: flex;
+    height: 400px;
+	margin: 10;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+}
+
+#divButton{
+    height: 100px;
+    width: 200px;
+	border: 50px;
+	flex: 1;
+}
+#div_Alunos{
+    height: 50px;
+    width: 200px;
+    border: 50px;
+}
+
+
+h1{
+    line-height: 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#buttonRed{
+    text-align: center;
+	background-color: red;
+	font-size: 15px;
+	height: 50px;
+	width: 100px;
+	border-style: none;
+	color: white;
+}
+
+#articleAluno{
+	flex: 1;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: red;
+}
+
+p{
+    line-height: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+article{
+	flex: 1;
+	margin-left: 15px;
+}
+
+footer{
+    font-size: 20px;
+    color: white;
+    text-align: center
+}
