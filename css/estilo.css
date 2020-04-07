@@ -1,7 +1,7 @@
 
 body{
     padding: 30px;
-    background-color: #b3311ac4;
+    background-color: rgb(201, 76, 76);
 }
 
 header{
@@ -11,7 +11,7 @@ header{
 	margin: 10;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: red;
+	border-bottom-color:rgb(165, 42, 42);
 }
 
 hr{
@@ -24,7 +24,7 @@ hr{
 	margin: 10;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: red;
+	border-bottom-color:rgb(165, 42, 42);
 }
 
 #section_Alunos{
@@ -33,7 +33,7 @@ hr{
 	margin: 10;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: red;
+	border-bottom-color:rgb(165, 42, 42);
 }
 
 #divButton{
@@ -66,13 +66,19 @@ h1{
 	color: white;
 }
 
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: none;
+}
+
 #articleAluno{
 	flex: 1;
 	margin-left: 15px;
 	margin-bottom: 15px;
 	border-right-width: 2px;
 	border-right-style: solid;
-	border-right-color: red;
+	border-right-color: rgb(165, 42, 42);
 }
 
 p{
