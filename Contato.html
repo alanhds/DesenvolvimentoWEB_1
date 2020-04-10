@@ -1,17 +1,67 @@
 <html lang="en">
 
 <head>
-
-    <!-- META -->
+    <title>Curriculo Alan Souza</title>
     <meta name="chaset" content="utf-8" />
-    <title>Contato</title>
+    <link rel="stylesheet" href="css/contatostyle.css">
 </head>
 
 
-<body>
-    
-    <H1>Contato</H1>
+ <!-- Corpo------------------------------------>
+ <body>
 
+    <!-- Cabeçalho------------------------------------>
+    <header>
+        Desenvolvimento Web I
+    </header>
+    
+    <!-- Menu -->
+     <nav id="menu">
+        <ul>
+            <li><a href="Index.html">Index</a></li>
+            <li><a href="AlunoAlanSouza.html">Alan Souza</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- Secção dos Alunos------------------------------------>
+    <section id="sectionFormulario">
+        
+        <h1>Formulário de Contato</h1>
+
+        <form calss="fomulario" name="contatoForm" action="Contato.html" method="post">
+
+            <legend>Nome: </legend>
+            <input type="text" name="nome" placeholder="Informe seu nome" required="required">
+
+            <Legend>Email: </Legend>
+            <input type="email" name="email" placeholder="informe seu email" required="required">
+            
+            <Legend>Prioridade: </Legend>
+            <select class="prioridade" required="required">
+                   <option value="Alta">Alta</option>
+                   <option value="Media">Media</option>
+                   <option value="Baixa">Baixa</option>
+            </select>
+
+            <Legend> Mensagem: </Legend>
+            <textarea name="mensagem" placeholder="Deixe sua mensagem" required="required"></textarea>
+
+            <input id="botEnviar" type="submit" name="enviar" value="Enviar">
+
+        </form>
+
+
+    </section>
+
+
+
+    <!-- Informações de Rodapé------------------------------------>
+    <footer>
+        Desenvolvido por Alan Souza -2020 &copy;
+    </footer>
 
 </body>
 

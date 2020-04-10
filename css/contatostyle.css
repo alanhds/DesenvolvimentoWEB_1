@@ -1,0 +1,184 @@
+
+
+/* PROPRIEDADES GERAIS DA PAGINA */
+body{
+    padding: 15px;
+   background-color: white;
+}
+
+header{
+    padding-left: 20px ;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   background-color:  rgb(165, 42, 42);
+   border-bottom-width: 2px;
+   border-bottom-style: solid;
+   border-bottom-color:rgb(165, 42, 42);
+}
+
+hr{
+   color: rgb(165, 42, 42)
+}
+
+h1{
+    line-height: 0px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+ }
+ 
+ p{
+     font-size: 20px;
+     color: black;
+  }
+
+footer{
+    font-size: 20px;
+    color: rgb(165, 42, 42);
+    text-align: center
+    }
+
+/* PROPRIEDADES POR ID */
+#section_Buttons{
+   height: 60px;
+   width: 100%;
+   border-bottom-width: 2px;
+   border-bottom-style: solid;
+   border-bottom-color:rgb(165, 42, 42);
+   justify-content: center;
+}
+
+#sectionFormulario{
+    height: 600px;
+    width: 100%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(165, 42, 42);
+    justify-content: center;
+ }
+
+#divButton{
+   display: flex;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+}
+
+
+#div_Alunos{
+   height: 50px;
+   width: 100%;
+   border: 50px;
+}
+
+ 
+#buttonRed{
+   text-align: center;
+   background-color: red;
+   font-size: 100%;
+   width: 120px;
+   height: 50px;
+   border-style: none;
+   color: white;
+   margin: 5px;
+}
+
+
+/* PROPRIEDADES DO MENU DE NAVEGAÇÃO  */
+    #menu{
+        margin-top: 5px;
+        height: 60px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color:rgb(165, 42, 42);
+    
+    }
+    #menu ul {
+        padding:0px;
+        margin:0px;
+        font-size: 100%; 
+        list-style:none;
+        line-height: 45px;
+        text-align: center;
+    }
+    #menu ul li {
+        display: inline-block ; 
+    }
+    #menu ul li a {
+        padding: 2px 10px;
+        display: inline-block;
+
+        /* visual do link */
+        background-color:white;
+        color: rgb(165, 42, 42);
+        text-decoration: noNE;
+        border:3px solid rgb(165, 42, 42);
+    }
+    #menu ul li a:hover {
+        background-color: white;
+        color: rgb(165, 42, 42);
+        border-bottom:3px solid rgb(165, 42, 42);
+    }
+    a{
+        color: rgb(165, 42, 42);
+        text-decoration: none;
+        font-weight: none;
+    }
+/* PROPRIEDADE DA SEÇÃO */
+    #sectionFormulario h1{
+        color: black;
+        font-size: 30px;
+    }
+
+
+/* PROPRIEDADES DO FORMULARIO */
+    
+    .fomulario{
+        font-size: 16PX;
+        max-width: 500PX;
+    }
+    input:focus, textarea:focus {
+        width: 470PX;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: gainsboro;
+        border: red solid 2px;
+    }
+    input, textarea {
+        width: 470PX;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: white;
+        border: gray solid 2px;
+    }
+    #botEnviar{
+        background-color: red;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 5px;
+        color: blanchedalmond;
+
+    }
+    .descricao {
+        font-size: 15PX;
+        font-weight: bold;
+        color: balck;
+        height: 5px;
+    }
+    .prioridade {
+        width: 470PX;
+        height: 40px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    legend{
+        font-weight: bold;
+        font-size: 15PX;
+
+    }
+    
+
