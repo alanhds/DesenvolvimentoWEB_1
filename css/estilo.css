@@ -14,6 +14,25 @@ header{
 	border-bottom-color:rgb(165, 42, 42);
 }
 
+h1{
+    font-size: px;
+    color: white;
+	font-weight: bold;
+	line-height: 5px;
+	font-size: 15px;
+}
+
+
+p{
+	font-size: 15px;
+	line-height: 15px;
+	color: white;
+}
+
+hr{
+	color: rgb(165, 42, 42)
+ }
+
 #section_Buttons{
 	height: 60px;
 	width: 100%;
@@ -48,12 +67,6 @@ header{
 }
 
 
-h1{
-    line-height: 0px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-}
 
 #buttonRed{
     text-align: center;
@@ -114,24 +127,17 @@ a{
 
 /* PROPREDADE DE ARTIGOS */
 #articleAluno{
+	margin-top: 30px;
 	flex: 1;
 	margin-left: 15px;
 	margin-bottom: 15px;
 	padding-left: 15px;
-	border-left-width: 2px;
-	border-left-style: solid;
-	border-left-color: rgb(165, 42, 42);
 }
 
 article{
 	flex: 1;
 	margin-left: 15px;
-}
-
-
-p{
-    font-size: 20px;
-    color: white;
+	margin-top: 30px;
 }
 
 
