@@ -159,6 +159,7 @@ footer{
         height: 40px;
         font-weight: bold;
         border-radius: 5px;
+        border-style: none;
         color: blanchedalmond;
 
     }
