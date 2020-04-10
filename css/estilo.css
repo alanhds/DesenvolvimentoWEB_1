@@ -66,22 +66,25 @@ h1{
 }
 
 #menu{
+	margin-top: 5px;
 	height: 60px;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color:rgb(165, 42, 42);
+	
 }
 
 
 #menu ul {
     padding:0px;
-    margin:0px;
+	margin:0px;
+	font-size: 100%;
 	list-style:none;
+	text-align: center;
 }
 
 #menu ul li {
-	 display: inline-block; /* centraliza na horizontal */
-	 text-align:center;
+	 display: inline; 
 }
 
 #menu ul li a {
