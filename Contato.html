@@ -31,29 +31,30 @@
 
         <h1>Formulário de Contato</h1>
 
-        <form calss="fomulario" name="contatoForm" action="" method="post">
+        <form calss="fomulario" name="contatoForm" id="formcontact" action="" method="post">
 
             <legend>Nome: </legend>
-            <input type="text" name="nome" placeholder="Informe seu nome" required="required">
+            <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required="required">
 
             <Legend>Email: </Legend>
             <input type="email" name="email" placeholder="informe seu email" required="required">
 
             <Legend>Prioridade: </Legend>
-            <select class="prioridade" name="prioridade" required="required">
+            <select class="prioridade" name="prioridade" id="prioridade" required="required">
                    <option value="Alta">Alta</option>
                    <option value="Media">Media</option>
                    <option value="Baixa">Baixa</option>
             </select>
 
             <Legend> Mensagem: </Legend>
-            <textarea name="mensagem" placeholder="Deixe sua mensagem" required="required"></textarea>
+            <textarea name="mensagem" id="mensagem" placeholder="Deixe sua mensagem" required="required"></textarea>
 
             <Legend></Legend>
-            <input id="botEnviar" name="enviar" type="submit"  value="Enviar">
+            <input id="botEnviar" name="enviar" type="submit" onclick="display()"  value="Enviar">
 
         </form>
 
+        <script src="js/fomulario.js"> </script>
 
     </section>
 
